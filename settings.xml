@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>15</particles>
+  <batches>3</batches>
+  <inactive>2</inactive>
+  <source strength="1.0">
+    <space type="fission">
+      <parameters>-50.0 -50.0 -0.5 50.0 50.0 0.5</parameters>
+    </space>
+  </source>
+  <output>
+    <summary>false</summary>
+    <tallies>false</tallies>
+  </output>
+</settings>
